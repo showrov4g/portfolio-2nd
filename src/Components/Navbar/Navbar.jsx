@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
 
-
 const Navbar = () => {
   const links = (
     <>
@@ -8,11 +7,14 @@ const Navbar = () => {
         <a href="/">Home</a>
       </li>
       <li>
-        
-        <Link to="about" smooth={true}>About</Link>
+        <Link to="stack" smooth={true}>
+          My Tech Stack
+        </Link>
       </li>
       <li>
-        <a href="">Home</a>
+        <Link to="about" smooth={true}>
+          About
+        </Link>
       </li>
     </>
   );
