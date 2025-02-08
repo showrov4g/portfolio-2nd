@@ -1,0 +1,7 @@
+.heading-color{
+    /* font-size: 60px;
+    font-weight: 700; */
+    background: linear-gradient(150deg, #1BAAF2,#7566D2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
