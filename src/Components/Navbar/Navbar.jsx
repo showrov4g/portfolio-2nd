@@ -30,8 +30,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <Sticky enabled={true} top={0} bottomBoundary={1200}>
-      <div className="navbar bg-base-100 shadow-sm ">
+    <Sticky top="#header" bottomBoundary="#content">
+      <div className="navbar bg-[#42446E] text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,7 +42,6 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                {" "}
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -58,13 +57,13 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">Showrov</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact with me</a>
+          <a  className="btn"><Link to="contact" smooth={true}>Contact with me</Link></a>
         </div>
       </div>
     </Sticky>

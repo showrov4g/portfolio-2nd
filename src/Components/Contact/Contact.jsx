@@ -2,7 +2,7 @@ import { GitHub, LinkedIn, Mail, Phone, X } from "@mui/icons-material";
 
 const Contact = () => {
   return (
-    <div id='contact' className="md:flex justify-between items-center my-32 text-center border-y py-4">
+    <div id='contact' className="md:flex justify-between items-center mt-20 text-center border-y py-4">
       <div>Showrov Ghosh</div>
       <div className="md:flex justify-around gap-3">
         <div>
