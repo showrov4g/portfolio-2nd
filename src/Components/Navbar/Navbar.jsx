@@ -16,6 +16,11 @@ const Navbar = () => {
           About
         </Link>
       </li>
+      <li>
+        <Link to="project" smooth={true}>
+        Projects
+        </Link>
+      </li>
     </>
   );
   return (
