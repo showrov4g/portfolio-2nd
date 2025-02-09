@@ -21,6 +21,7 @@
     "react-dom": "^19.0.0",
     "react-router": "^7.1.5",
     "react-scroll": "^1.9.2",
+    "react-stickynode": "^5.0.1",
     "react-type-animation": "^3.2.0",
     "tailwindcss": "^4.0.4"
   },
