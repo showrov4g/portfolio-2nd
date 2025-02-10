@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div id="about" className="w-11/12 mx-auto my-32">
       <div className="flex flex-col">
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold ">About Me</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#42446E]">About Me</h1>
         <hr className="w-40 md:w-60 lg:w-80 h-1.5 bg-amber-400 border-none outline-none bg-linear-to-r from-[#1BAAF2] to-[#7566D2]" />
       </div>
       <div className="my-8">
@@ -21,7 +21,7 @@ const About = () => {
       <div></div>
       <div>
         <div className="my-5">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold ">Education</h1>
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#42446E]">Education</h1>
           <hr className="w-40 md:w-60 lg:w-80 h-1.5 bg-amber-400 border-none outline-none bg-linear-to-r from-[#1BAAF2] to-[#7566D2]" />
         </div>
         <h5 className="text-xl md:text-2xl">Bachelor in Accounting</h5>
