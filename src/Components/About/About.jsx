@@ -26,7 +26,7 @@ const About = () => {
         </div>
         <h5 className="text-xl md:text-2xl">Bachelor in Accounting</h5>
         <p>
-          Govt. Rajandro collage, Faridpu, Bangladesh <br /> form 2018-2022
+          Govt. Rajandro collage, Faridpu, Bangladesh <br /> from 2018-2022
         </p>
       </div>
     </div>

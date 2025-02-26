@@ -4,7 +4,7 @@ const MyTechStack = () => {
     <div className="my-32">
       <div className="flex flex-col text-center items-center justify-center gap-4 my-10">
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#42446E]">My Tech Stack</h1>
-        <p className="text-lg md:text-xl">Technologies I’ve been working with recently</p>
+        <p className="text-lg md:text-xl">Technologies I have been working with recently</p>
       </div>
       <div
         id="stack"
